@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "!";
+const prefix = "+";
 
 client.on("ready", () => {
-  console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Support Magic |${prefix}new`);
+  console.log("Mohamed | Logged in! Server count: ${client.guilds.size}");
+  client.user.setGame(`Ticket|${prefix}new`);
 });
 
 
