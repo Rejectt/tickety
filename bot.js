@@ -1,15 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-
-function clean(text) {
-    if (typeof(text) === "string")
-      return text.replace(/`/g, "`" + String.fromCharCode(8203)).replace(/@/g, "@" + String.fromCharCode(8203));
-    else
-        return text;
-}
-
-const prefix = "Your Prefix";
-const token = "Token Your Bot";
+const prefix = "!";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
