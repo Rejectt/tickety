@@ -1,1 +1,1 @@
-# tickety
+# tickety-magic
